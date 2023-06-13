@@ -1,0 +1,116 @@
+@import "../fuentes.css";
+section{
+    font-family: roboto_light;
+    margin: 22px;
+}
+section .titulo{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #C4C4C4;
+}
+
+.formulario div label{
+    font-size: 15px;
+    width: 100%;
+}
+.formulario div input{
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 0;
+    background-color: #F5F5F5;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div button{
+    background-color: #D8E615;
+    width: 100%;
+    border: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+div button:hover{
+    background-color: #E6156F;
+}
+
+div .info_tajeta{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.contenedor_telefono{
+    display: flex;
+}
+.contenedor_telefono div {
+    margin-left: 2px;
+    margin-right: 2px;
+    flex-grow: 1;
+}
+
+.contenedor_fecha{
+    display: flex;
+}
+
+.contenedor_fecha .fecha{
+    margin-right: 3px;
+    flex-grow: 3;
+}
+
+.contenedor_fecha .cvr{
+    margin-left: 3px;
+    flex-grow: 1;
+}
+.img_tarjate img{
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    .contenedor_formulario{
+        display: flex;
+    }
+    .contenedor_formulario div{
+        flex-grow: 1;
+    }
+    main{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    div button{
+        width: 40%;
+        text-align: center;
+        margin-left: 30%;
+    }
+    div .info_tajeta{
+        text-align: center;
+ 
+    }
+    .formulario{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .formulario div input{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .img_tarjate{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img_tarjate img{
+        width: 100%;
+        display: initial;
+        opacity: 0.5;
+    }
+}

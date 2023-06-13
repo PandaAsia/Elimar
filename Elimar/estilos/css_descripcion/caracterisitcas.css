@@ -1,0 +1,35 @@
+@import "../fuentes.css";
+
+.boton_desplediable{
+    margin-top: 10px;
+}
+.boton_desplediable details summary{
+    font-size: 20px;
+    font-family: roboto_boldt;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.boton_desplediable details{
+    text-align: justify;
+    font-family: 'Segoe UI';
+    color: black;
+    background-color: #F6F5F5;
+    padding-bottom: 1px;
+}
+
+details table{
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    margin: 20px;
+
+}
+
+.boton_desplediable details table tr td{
+    padding: 5px;
+
+}
+

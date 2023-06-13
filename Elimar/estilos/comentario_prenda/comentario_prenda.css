@@ -1,0 +1,140 @@
+
+.contenedor_comentario h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Segoe UI';
+}
+.contenedor_comentario{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.caja_comentario h2{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #9A9A9A;
+}
+
+.caja_comentario p{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja_img{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.caja_img img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+.botton_flotante{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+}
+.botton_flotante a{
+    /* position: absolute; */
+    background-color: #D8E615;
+    color: white;
+    border: 0;
+    font-size: 17px;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.botton_flotante a:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.comentarios_usuarios{
+    border-bottom: 1px solid #C4C4C4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 720px) {
+    .usuario_comentario{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    main{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .comentarios_usuarios{
+        display: flex;
+    }
+    .contenedor_comentario{
+        width: 70%;
+    }
+    .caja_img img{
+        height: 200px;
+        width: 100%;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        cursor: pointer;
+    }
+    .caja_img{
+        position: relative;
+        width: 18%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .botton_flotante a{
+        padding: 10px 20px;
+        transform: translate(60%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    }
+
+    .botton_flotante{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-115%, -50%);
+  -ms-transform: translate(-50%, -50%)
+    }
+
+    .botton_flotante a{
+        background: none;
+        color: #F90707;
+        width: auto;
+        font-size: 25px;
+    }
+    .caja_img:hover img{
+        opacity: 0.5;
+    }
+
+    .caja_img:hover .botton_flotante{
+        opacity: 1;
+    }
+
+    .botton_flotante a:hover{
+        background: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    main{
+        margin-bottom: 25px;
+    }
+}

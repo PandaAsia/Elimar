@@ -1,0 +1,33 @@
+main .informacion{
+    padding: 22px;
+}
+main .informacion p{
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    color: #9A9A9A;
+    line-height: 17px;
+}
+
+main .informacion h1{
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    color: #9A9A9A;
+}
+@media screen and (min-width: 720px) {
+    .informacion{
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    main .informacion h1{
+        margin-bottom: 10px;
+    }
+    main .informacion p{
+        margin-top: 10px;
+    }
+    
+
+
+}

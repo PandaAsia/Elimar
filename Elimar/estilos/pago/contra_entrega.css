@@ -1,0 +1,126 @@
+@import "../fuentes.css";
+section{
+    margin: 22px;
+    font-family: roboto_light;
+}
+
+.titulo{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #C4C4C4;
+}
+
+.contenedor div label{
+    font-size: 15px;
+    width: 100%;
+}
+
+.contenedor div input{
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 0;
+    background-color: #F5F5F5;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div button{
+    background-color: #D8E615;
+    width: 100%;
+    border: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+div button:hover{
+    background-color: #E6156F;
+}
+
+.contenedor_telefono{
+    display: flex;
+}
+.contenedor_telefono div{
+    flex-grow: 1;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.contenedor_img div img{
+    width: 100%;
+}
+.contenedor_img h2{
+    font-size: 25px;
+    text-align: center;
+    color: #B9B9B9;
+}
+
+.img{
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+.person{
+    width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+
+    section{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contendor_general{
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor{
+        flex-grow: 1;
+    }
+    .contenedor_img{
+        flex-grow: 1;
+        width: 50%;
+        position: relative;
+    }
+    .img, .person{
+        width: 50%;
+        float: left;
+    }
+    .person{
+        width: 45%;
+        margin-top: 15px;
+        margin-left: 180px;
+        -webkit-animation-name: example_1;
+        -webkit-animation-duration: 4s;
+    }
+
+    .img{
+        position: absolute;
+        z-index: 1;
+        margin-left: 180px;
+        -webkit-animation-name: example_2;
+        -webkit-animation-duration: 2.5s;;
+    }
+
+    @-webkit-keyframes example_2 {
+        0%{
+            margin-left: 0px;
+            opacity: 0;
+        }
+    }
+    @-webkit-keyframes example_1 {
+        0%{
+            margin-left: 70%;
+            opacity: 0;
+        }
+    }
+
+
+
+
+}

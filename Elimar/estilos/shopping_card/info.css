@@ -1,0 +1,41 @@
+@import "../fuentes.css";
+.contenedor_info{
+    background-color: #BBBBBB;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+.repositorio_info img{
+    width: 50%;
+    height: 70%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.repositorio_info{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 720px) {
+    .repositorio_info{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .repositorio_info img{
+        
+        width: 30%;
+    }
+}
+
+

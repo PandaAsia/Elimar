@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elimar</title>
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/navbar.css">
+
+    <link rel="stylesheet" href="estilos/css_home/informacion.css">
+    <link rel="stylesheet" href="estilos/css_home/ropa_favorita.css">
+    <link rel="stylesheet" href="estilos/css_home/categorias.css">
+
+    <link rel="stylesheet" href="estilos/css_home/banner.css">
+    <link rel="stylesheet" href="estilos/all.min.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor_navbar">
+            <div class="contenedor_animada">
+                <ul>
+                    <li>
+                        <h1 class="h1">US$3 </h1> DESCUENTO DE SU PRIMERA ORDEN
+                    </li>
+                    <li>
+                        <h1 class="h1">US$3 </h1> DESCUENTA DE ROPA DE VERANO
+                    </li>
+                </ul>
+            </div>
+            <a href="index.html" class="navbar_logo">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <input type="checkbox" id="menu_navbar">
+            <label for="menu_navbar">
+                <img src="img/menu.png" alt="menu">
+            </label>
+            <nav class="menu_nav">
+                <ul class="menu_principal">
+                    <li class="menu_lista">
+                        <div class="container_1">
+                            <form action="" autocomplete="on">
+                                <input id="search" name="search" type="text" placeholder="Buscar..." class="search">
+                                <input type="submit" id="search_submit" value="Buscar">
+                            </form>
+                        </div>
+                    </li>
+                    <li class="menu_lista">
+                        <a href="galleria.html">Prendas <img src="img/arrow.png" alt="arrow"></a>
+                    </li>
+                    <li class="menu_lista sub_cuenta">
+                        <a href="#" class="cuenta">Cuenta <span class="fas fa-sort-down"></span></a>
+                        <ul class="sub_menu">
+                            <li class="menu_lista">
+                                <a href="login.html">Iniciar Sesion <img src="img/arrow.png" alt="arrow"></a>
+                            </li>
+                            <li class="menu_lista">
+                                <a href="galleria.html">Compras <img src="img/arrow.png" alt="arrow"></a>
+                            </li>
+                            <li class="menu_lista">
+                                <a href="estado_pedido.html">Reseñas <img src="img/arrow.png" alt="arrow"></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu_lista_2">
+                        <a href="shopping_card.html">Carrito de Compra <img src="img/arrow.png" alt="arrow"></a>
+                    </li>
+                    <li class="menu_lista_3">
+                        <a href="shopping_card.html"><span class="fas fa-shopping-cart"></span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="banner_general">
+            <div class="slidershow">
+                <ul class="slider">
+                    <li>
+                        <img src="img/filder/banner10.jpg" alt="" class="banner">
+                    </li>
+                    <li>
+                        <img src="img/filder/banner11.jpg" alt="" class="banner">
+                    </li>
+                    <li>
+                        <img src="img/filder/banner12.jpg" alt="" class="banner">
+                    </li>
+                    <li>
+                        <img src="img/filder/banner13.jpg" alt="" class="banner">
+                    </li>
+                </ul>
+                <ol class="paginacion">
+                </ol>
+            </div>
+            <div class="banner_2">
+                <img src="img/Banner/banner1.jpg" alt="banner_pequeño">
+            </div>
+        </section>
+        <section class="categorias">
+            <div class="contenedor_cate">
+                <div class="conteniener_cate">
+                    <img src="img/categoria_1/blouse-with-lace.png" alt="blusa">
+                    <br>
+                    Blusa
+                    <div class="enlace_cate">
+                        <button>Ver</button>
+                    </div>
+                </div>
+                <div class="conteniener_cate">
+                    <img src="img/categoria_1/coat (1).png" alt="saco">
+                    <br>
+                    Sacos
+                    <div class="enlace_cate">
+                        <button>Ver</button>
+                    </div>
+                </div>
+                <div class="conteniener_cate">
+                    <img src="img/categoria_1/dress (1).png" alt="vestido">
+                    <br>
+                    Vestidos
+                    <div class="enlace_cate">
+                        <button>Ver</button>
+                    </div>
+                </div>
+                <div class="conteniener_cate">
+                    <img src="img/categoria_1/jeans (1).png" alt="pantalon">
+                    <br>
+                    Pantalon
+                    <div class="enlace_cate">
+                        <button>Ver</button>
+                    </div>
+                </div>
+            </div>
+            <div class="caja_categoria">
+                <ul>
+                    <li> <a href="galleria.html">Blusa</a></li>
+                    <li> <a href="galleria.html">Saco</a></li>
+                    <li> <a href="galleria.html">Vestido</a></li>
+                    <li> <a href="galleria.html">Patalon</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="ropas_favorita">
+            <div class="container_ropa">
+                <div class="caja_ropa">
+                    <div class="ropa_galleria">
+                        <a href="descripcion_prenda.html">
+                            <img src="img/Ropa/f_0072002-morgan-onroll-2.jpg" alt="Ropa" class="ropa_moda">
+                            
+                        </a>
+                    </div>
+                    <h1>cuello bebe</h1>
+                    <h2>S./ 500.99</h2>
+                    <a href="descripcion_prenda.html" class="ver_mas">Ver Mas</a>
+                </div>
+                <div class="caja_ropa">
+                    <div class="ropa_galleria">
+                        <a href="descripcion_prenda.html">
+                            <img src="img/Ropa/falda-corta-lisa-cinturilla-elastica-negro.jpg" alt="Ropa" class="ropa_moda">
+                            
+                        </a>
+                    </div>
+                    <h1>cuello bebe</h1>
+                    <h2>S./ 500.99</h2>
+                    <a href="descripcion_prenda.html" class="ver_mas">Ver Mas</a>
+                </div>
+                <div class="caja_ropa">
+                    <div class="ropa_galleria">
+                        <a href="descripcion_prenda.html">
+                            <img src="img/Ropa/michael_lauren_camiseta_hyde_mujer_harina_de_avena_tops_modelos_clsicos_ropa_mujer_4r9t42ghe-500x500.jpg"
+                                alt="Ropa" class="ropa_moda">
+                                
+                        </a>
+                    </div>
+                    <h1>cuello bebe</h1>
+                    <h2>S./ 500.99</h2>
+                    <a href="descripcion_prenda.html" class="ver_mas">Ver Mas</a>
+                </div>
+                <div class="caja_ropa">
+                    <div class="ropa_galleria">
+                        <a href="descripcion_prenda.html">
+                            <img src="img/Ropa/82e3a9c6946fb75f199826b7913551ec.image.448x500.jpg" alt="Ropa" class="ropa_moda">
+                            
+                        </a>
+                    </div>
+                    <h1>cuello bebe</h1>
+                    <h2>S./ 500.99</h2>
+                    <a href="descripcion_prenda.html" class="ver_mas">Ver Mas</a>
+                </div>
+                <div class="caja_ropa">
+                    <div class="ropa_galleria">
+                        <a href="descripcion_prenda.html">
+                            <img src="img/Ropa/ffe501f00d5666dd478f4a219159fcf6.jpg" alt="Ropa" class="ropa_moda">
+                            
+                        </a>
+                    </div>
+                    <h1>cuello bebe</h1>
+                    <h2>S./ 500.99</h2>
+                    <a href="descripcion_prenda.html" class="ver_mas">Ver Mas</a>
+                </div>
+                <div class="caja_ropa">
+                    <div class="ropa_galleria">
+                        <a href="descripcion_prenda.html">
+                            <img src="img/Ropa/10299-faldaamsanegro_1.jpg" alt="Ropa" class="ropa_moda">
+                            
+                        </a>
+                    </div>
+                    <h1>cuello bebe</h1>
+                    <h2>S./ 500.99</h2>
+                    <a href="descripcion_prenda.html" class="ver_mas">Ver Mas</a>
+                </div>
+            </div>
+        </section>
+        <section class="informacion">
+            <h1>
+                ROPA ONLINE PARA MUJER
+            </h1>
+            <hr>
+            <p>
+                En Elimar encontrarás la mejor selección de ropa online sin moverte de casa. Desde nuestra tienda
+                online podrás comprar las mejores marcas de moda como son Vila Clothes, Maison Scotch, Only, Ichi, Vero
+                Moda, Nosy May o Morgan de Toi entre otras. Míralas todas en el apartado de marcas de mujer. Descubre
+                navegando sección por sección las prendas con más estilo para crear todo tipo de outfits.
+            </p>
+            <p>
+                Inspírate en los looks que llevan las mejores bloggers de moda como Lovely Pepa, Madame de Rosa, Bala
+                moda, Trendy Taste o Mi aventura con la moda, entre muchas otras. Si lo que te gusta esestar a la
+                última y enterarte de lo que se lleva y cómo se lleva, sólo tienes que hacer una cosa: consultar
+                nuestros apartados de tendencias, bloggers y looks. Aprovecha las tendencias que te proponemos de ropa
+                ibicenca, estampados florales o topos, colores pastel, camisetas con mensaje o de estilo boho chic para
+                encontrar esa prenda que tanto estás buscando. ¿Ya lo has hecho? Genial, ya puedes hacerte con las
+                prendas del momento que más te favorezcan y que te hagan sentir radiante. Abrigos de pelo, pantalones
+                de campana, chaquetas de ante, jerséis de punto, sudaderas mujer, vestidos ibicencos, faldas étnicas
+                son sólo algunos ejemplos entre las muchas opciones que te proponemos.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <div class="politica">
+            <h1>Politicas de la Tienda</h1>
+            <br>
+            <article>
+                <ul>
+                    <li>Términos y condiciones</li>
+                    <li>Horario de Atención</li>
+                    <li>Libro de Reclamos</li>
+                    <li>Políticas de entrega , garantía y devolución</li>
+                </ul>
+            </article>
+            <br>
+        </div>
+        <div class="tienda">
+            <h1>Información de la Tienda</h1>
+            <br>
+            <article>
+                <ul>
+                    <li>Tienda Elimar</li>
+                    <li>Llámanos ahora al: 951 545 421</li>
+                    <li>Email: elimar@gmail.com</li>
+                </ul>
+            </article>
+            <br>
+        </div>
+        <div class="redes">
+            <h1>Redes Sociales</h1>
+            <br>
+            <article>
+                <ul>
+                    <li><img src="img/fooder/facebook.png" alt="facebook" class="redes_sociales"> Facebook</li>
+                    <li><img src="img/fooder/instagram.png" alt="instagram" class="redes_sociales">Instagram</li>
+                    <li><img src="img/fooder/twitter.png" alt="twitter" class="redes_sociales">Twiter</li>
+                    <li><img src="img/fooder/whatsapp.png" alt="whatsapp" class="redes_sociales">Whatsapp</li>
+                </ul>
+            </article>
+            <br>
+        </div>
+        <div class="copyright">
+            <p class="copyroght">
+                © ELIMAR - Todos los Derechos Reservados 2019
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

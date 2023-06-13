@@ -1,0 +1,103 @@
+@import "../fuentes.css";
+
+.comentarios{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.contenerdor_comentario details summary{
+    font-size: 20px;
+    font-family: roboto_boldt;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.comntarios_usu{
+    border: 1px solid;
+    padding: 15px;
+    margin: 10px;
+}
+
+.comntarios_usu h2{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.comntarios_usu h3{
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.comntarios_usu p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.caja_comentario{
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    .contenerdor_comentario{
+        display: none;
+        
+    }
+    .caja_comentario{
+        display: initial;
+    }
+    .comentarios{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .comntarios_usu{
+        display: flex;
+    }
+    
+    div .usuario{
+        width: 15%;
+        flex-grow: 1;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    div .usu_comentario{
+        flex-grow: 2;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .caja_comentario button{
+        background-color: black;
+        color: white;
+        width: 50%;
+        border: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-left: 25%;
+        font-family: roboto_light;
+        font-size: 18px;
+    }
+
+    .caja_comentario button:hover{
+        background-color: #D8E615;
+    }
+    .comntarios_usu{
+        font-family: roboto_light;
+    }
+    .caja_comentario h1{
+        font-family: roboto_light;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #9A9A9A;
+    }
+    .comentarios{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

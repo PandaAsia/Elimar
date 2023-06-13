@@ -1,0 +1,103 @@
+
+.contenedor_obciones{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+section input{
+    border: none;
+    border-bottom: 1px solid #C4C4C4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+.contenedor_select{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 11px;
+}
+
+.contenedor_select div{
+    flex-grow: 1;
+    width: 50%;
+}
+.contenedor_select div select{
+    width: 90%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    text-align-last: center;
+    border: 1px solid red;
+}
+
+.contenedor_btn{
+    display: none;
+}
+@media screen and (min-width: 720px) {
+    .list_prendas{
+        display: none;
+    }
+    .list_precios{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        width: 20%;
+    
+    }
+    .contenedor_select div select{
+        width: 10%;
+        float: right;
+        margin-right: 200px;
+    }
+    .contenedor_obciones input{
+        display: none;
+    }
+
+    .caja_btn{
+        display: initial;
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        border-bottom: 1px solid #C4C4C4;
+        padding-bottom: 20px;
+        
+    }
+    .caja_btn ul li{
+        float: left;
+    }
+
+    .lista_btn a{
+        display: flex;
+        font-size: 17px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        
+    }
+    .lista_btn{
+        text-align: center;
+    }
+
+    .lista_btn a:hover{
+       background-color: #C4C4C4;
+    }
+
+    .contenedor_btn{
+        margin-top: 20px;
+        display: block;
+    }
+
+
+
+}

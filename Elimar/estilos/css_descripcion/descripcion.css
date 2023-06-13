@@ -1,0 +1,126 @@
+@import "../fuentes.css";
+
+main .descripcion_producto{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 22px;
+}
+
+main .descripcion_producto h1{
+    font-size: 20px;
+    font-family: roboto_light;
+    padding-bottom: 10px;
+}
+
+.img_principal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 462px;
+    background-color: #C4C4C4;
+    margin-bottom: 10px;
+}
+
+.img_principal img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img_secundario{
+    width: 100%;
+}
+
+.img_secundario img{
+    width: 30%;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.img_secundario{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+/* .contenedor_secundario a img{
+    width: 100%;
+
+} */
+
+.button_no_desplegable{
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    .boton_desplediable{
+        display: none;
+    }
+    .button_no_desplegable{
+        display: initial;
+    }
+    .contenedor_general{
+        display: flex;
+    }
+    .contenedor_general div{
+        flex-grow: 1;
+    }
+    .img_principal{
+        width: 50%;
+        height: 700px;
+    }
+
+    .img_principal img{
+        width: 100%;
+    }
+
+    .img_secundario{
+        flex-direction: column;
+        width: 9.5%;
+        margin-right: 15px;
+    }
+
+    .img_secundario img{
+        width: 100%;
+        opacity: 0.8;
+        height: 225px;
+        cursor: pointer;
+        float: left;
+        margin-bottom: 7px;
+        margin-top: 5px;
+    }
+    .contenedor_galleria{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 35%;
+        margin-right: 15px;
+        overflow: hidden;
+    }
+
+    .button_no_desplegable h2{
+        font-size: 20px;
+        font-family: roboto_light;
+        margin-bottom: 30px;
+        margin-top: 5px;
+    }
+    .button_no_desplegable table tr{
+        width: 100%;
+        height: 30px;
+    }
+    .button_no_desplegable table{
+        font-size: 16px;
+        font-family: roboto_light;
+    }
+    .descripcion_producto{
+        border-bottom: 1px solid #C4C4C4;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .contenedor_secundario{
+        width: 90%;
+    } 
+
+}
+

@@ -1,0 +1,49 @@
+@import "../fuentes.css";
+.contenedor_pago{
+    background-color: #BBBBBB;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    width: 100%;
+}
+.repositorio_pago img{
+    width: 50%;
+    height: auto;
+}
+
+.repositorio_pago{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+}
+
+.forma_pago h1{
+    padding-left: 22px;
+    font-size: 15px;
+    font-family: roboto_light;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 720px) {
+    .repositorio_pago{
+        width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .repositorio_pago img{
+        margin-bottom: 5px;
+    }
+    .forma_pago h1{
+        margin-left: 50px;
+        font-family: roboto_light;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #9A9A9A;
+    }
+}

@@ -1,0 +1,75 @@
+@import "../fuentes.css";
+main .categorias{
+   padding-right: 22px;
+   padding-left: 22px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.contenedor_cate{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    position: relative;
+}
+.enlace_cate{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    top: 30%;
+}
+
+.enlace_cate button{
+    color: white;
+    border: 0;
+    background-color: #10E8D9;
+    font-family: 'Segoe UI';
+    padding: 1px 20px;
+    text-align: center;
+}
+
+.enlace_cate button:hover{
+    background-color: black;
+}
+
+main .categorias div div img{
+    object-fit: cover;
+    height: 55px;
+    width: 55px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.caja_categoria{
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    .contenedor_cate{
+        display: none;
+    }
+    .caja_categoria{
+        display: initial;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .caja_categoria ul li{
+        float: left;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .caja_categoria ul li a{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: roboto_light;
+        color: #9A9A9A;
+    }
+    .caja_categoria ul li a:hover{
+        color: #E6156F;
+    }
+
+}

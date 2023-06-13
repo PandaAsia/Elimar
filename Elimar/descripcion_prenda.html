@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Descripcion del producto</title>
+    <link rel="stylesheet" href="estilos/css_descripcion/descripcion.css">
+    <link rel="stylesheet" href="estilos/css_descripcion/caracterisitcas.css">
+    <link rel="stylesheet" href="estilos/css_descripcion/comentario.css">
+    <link rel="stylesheet" href="estilos/css_descripcion/colores.css">
+    <link rel="stylesheet" href="estilos/css_descripcion/forma_pago.css">
+    <link rel="stylesheet" href="estilos/css_descripcion/descripcion_compra.css">
+    <link rel="stylesheet" href="estilos/css_descripcion/modal.css">
+
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/navbar.css">
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor_navbar">
+            <div class="contenedor_animada">
+                <ul>
+                    <li>
+                        <h1 class="h1">US$3 </h1> DESCUENTO DE SU PRIMERA ORDEN
+                    </li>
+                    <li>
+                        <h1 class="h1">US$3 </h1> DESCUENTA DE ROPA DE VERANO
+                    </li>
+                </ul>
+            </div>
+            <a href="index.html" class="navbar_logo">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <input type="checkbox" id="menu_navbar">
+            <label for="menu_navbar">
+                <img src="img/menu.png" alt="menu">
+            </label>
+            <nav class="menu_nav">
+                <ul class="menu_principal">
+                    <li class="menu_lista">
+                        <div class="container_1">
+                            <form action="" autocomplete="on">
+                                <input id="search" name="search" type="text" placeholder="Buscar..." class="search">
+                                <input type="submit" id="search_submit" value="Buscar">
+                            </form>
+                        </div>
+                    </li>
+                    <li class="menu_lista">
+                        <a href="galleria.html">Prendas <img src="img/arrow.png" alt="arrow"></a>
+                    </li>
+                    <li class="menu_lista sub_cuenta">
+                        <a href="#" class="cuenta">Cuenta <span class="fas fa-sort-down"></span></a>
+                        <ul class="sub_menu">
+                            <li class="menu_lista">
+                                <a href="login.html">Iniciar Sesion <img src="img/arrow.png" alt="arrow"></a>
+                            </li>
+                            <li class="menu_lista">
+                                <a href="galleria.html">Compras <img src="img/arrow.png" alt="arrow"></a>
+                            </li>
+                            <li class="menu_lista">
+                                <a href="estado_pedido.html">Reseñas <img src="img/arrow.png" alt="arrow"></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu_lista_2">
+                        <a href="shopping_card.html">Carrito de Compra <img src="img/arrow.png" alt="arrow"></a>
+                    </li>
+                    <li class="menu_lista_3">
+                        <a href="shopping_card.html"><span class="fas fa-shopping-cart"></span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="descripcion_producto">
+            <h1>
+                Lulus
+            </h1>
+            <div class="contenedor_general">
+                <div class="contenedor_galleria">
+                    <div class="img_principal" id="big">
+                        <img src="img/Ropa/momo01.jpg">
+                    </div>
+                    <div class="img_secundario" id="sub">
+                        <img src="img/Ropa/momo02.jpg">
+                        <img src="img/Ropa/momo03.jpg">
+                        <img src="img/Ropa/momo04.jpg">
+                    </div>
+                </div>
+                <div class="descripcion_ropa">
+                    <div class="contenerdor_descripcion">
+                        <div class="boton_desplediable">
+                            <details>
+                                <summary>Caracteristicas</summary>
+                                <table>
+                                    <tr>
+                                        <td>Color: </td>
+                                        <td>Negro</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Composición: </td>
+                                        <td>95% algodó</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Estilo:</td>
+                                        <td>Casual</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Largo de manga:</td>
+                                        <td>Manga larga</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Escote:</td>
+                                        <td>Collar del soporte</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tipo de patrón:</td>
+                                        <td>A rayas</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Decoración:</td>
+                                        <td>Tejido De Costilla</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tela:</td>
+                                        <td>La tela tiene algo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Temporada:</td>
+                                        <td>Otoño</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tipo de ajuste:</td>
+                                        <td>Ajustado</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Longitud:</td>
+                                        <td>Regular</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tipo de tapeta:</td>
+                                        <td>Jerseys</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ocasión: </td>
+                                        <td>Fin de semana casual</td>
+                                    </tr>
+                                </table>
+                            </details>
+                        </div>
+                        <div class="button_no_desplegable">
+                            <h2>Caracteristicas</h2>
+                            <table>
+                                <tr>
+                                    <td>Color: </td>
+                                    <td>Negro</td>
+                                </tr>
+                                <tr>
+                                    <td>Composición: </td>
+                                    <td>95% algodó</td>
+                                </tr>
+                                <tr>
+                                    <td>Estilo:</td>
+                                    <td>Casual</td>
+                                </tr>
+                                <tr>
+                                    <td>Largo de manga:</td>
+                                    <td>Manga larga</td>
+                                </tr>
+                                <tr>
+                                    <td>Escote:</td>
+                                    <td>Collar del soporte</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de patrón:</td>
+                                    <td>A rayas</td>
+                                </tr>
+                                <tr>
+                                    <td>Decoración:</td>
+                                    <td>Tejido De Costilla</td>
+                                </tr>
+                                <tr>
+                                    <td>Tela:</td>
+                                    <td>La tela tiene algo</td>
+                                </tr>
+                                <tr>
+                                    <td>Temporada:</td>
+                                    <td>Otoño</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de ajuste:</td>
+                                    <td>Ajustado</td>
+                                </tr>
+                                <tr>
+                                    <td>Longitud:</td>
+                                    <td>Regular</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo de tapeta:</td>
+                                    <td>Jerseys</td>
+                                </tr>
+                                <tr>
+                                    <td>Ocasión: </td>
+                                    <td>Fin de semana casual</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor_compra">
+                    <div class="descripcion_compra">
+                        <div class="Preciso_ropa">
+                            <P><del> S./799.99</del></P>
+                            <p>S./798.99</p>
+                        </div>
+                        <div class="Talla">
+                            <h2>Talla</h2>
+                            <br>
+                            <div class="tallas_tama">
+                                <label class="talla_container">
+                                    <input type="radio"name="radio" class="talla_radio">
+                                    <span class="tallas_checkmark">S</span>
+                                </label>
+                                <label class="talla_container">
+                                    <input type="radio"  name="radio" class="talla_radio">
+                                    <span class="tallas_checkmark">M</span>
+                                </label>
+                                <label class="talla_container">
+                                    <input type="radio" name="radio" class="talla_radio">
+                                    <span class="tallas_checkmark">L</span>
+                                </label>
+                                <label class="talla_container">
+                                    <input type="radio"name="radio" class="talla_radio">
+                                    <span class="tallas_checkmark">XL</span>
+                                </label>
+
+                            </div>
+                        </div>
+                        <div class="tock_cantidad">
+                            <div class="tock">
+                                <h2>Stock</h2>
+                                <h3>25</h3>
+                            </div>
+                            <div class="cantidad">
+                                <h2>Cantidad</h2>
+
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boton_compra">
+                        <button id="modal_open" class="button_o">
+                            Añadir al Carrito
+                        </button>
+                    </div>
+
+                    <section id="openModal" class="modal_option">
+                        <div class="modal">
+                            <a href="#" class="close">X</a>
+                            <h2>Se Agrego al Carrito</h2>
+                            <br>
+                            <a href="shopping_card.html" class="modal_btn1"> ir al carrito de compras
+                                <i class="fas fa-arrow-right"></i></a>
+                            <br>
+                            <br>
+                            <a href="galleria.html" class="modal_btn2">
+                                <i class="fas fa-arrow-left"></i> seguir comprando</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </section>
+        <section class="other_color">
+            <h1>Otros Colores:</h1>
+            <div class="contenedor_colores">
+                <div class="repositorio_color">
+                    <a href="#">
+                        <img src="img/Ropa/verde.jpg" alt="color">
+                    </a>
+                </div>
+                <div class="repositorio_color">
+                    <a href="#">
+                        <img src="img/Ropa/amarillo.jpg" alt="color">
+                    </a>
+                </div>
+                <div class="repositorio_color">
+                    <a href="#">
+                        <img src="img/Ropa/modado.jpg" alt="color">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="forma_pago">
+            <h1>Formato de Pago</h1>
+            <div class="contenedor_pago">
+                <div class="repositorio_pago">
+                    <img src="img/tipo_compra/credit-card22.png" alt="">
+                    <br>
+                    Tarjeta visa
+                </div>
+                <div class="repositorio_pago">
+                    <img src="img/tipo_compra/withdraw2.png" alt="">
+                    <br>
+                    Transferencia bancaria
+                </div>
+                <div class="repositorio_pago">
+                    <img src="img/tipo_compra/buy copia.png" alt="">
+                    <br>
+                    Contra entrega
+                </div>
+            </div>
+        </section>
+        <section class="comentarios">
+            <div class="contenerdor_comentario">
+                <details>
+                    <summary>Comentarios</summary>
+                    <div class="comntarios_usu">
+                        <h2>Alexandra P.</h2>
+                        <h3>25 diciembre 2022</h3>
+                        <p>
+                            Vestido Perfecto que se adapta perfectamente a tus curvas. ¡He prestado este vestido a
+                            varios amigos y a todos les encanta! Gran material y perfecto para múltiples ocasiones.
+                            Recomiendo altamente 10/10
+                        </p>
+                    </div>
+                    <div class="comntarios_usu">
+                        <h2>Alexandra P.</h2>
+                        <h3>25 diciembre 2022</h3>
+                        <p>
+                            Vestido Perfecto que se adapta perfectamente a tus curvas. ¡He prestado este vestido a
+                            varios amigos y a todos les encanta! Gran material y perfecto para múltiples ocasiones.
+                            Recomiendo altamente 10/10
+                        </p>
+                    </div>
+                    <div class="comntarios_usu">
+                        <h2>Alexandra P.</h2>
+                        <h3>25 diciembre 2022</h3>
+                        <p>
+                            Vestido Perfecto que se adapta perfectamente a tus curvas. ¡He prestado este vestido a
+                            varios amigos y a todos les encanta! Gran material y perfecto para múltiples ocasiones.
+                            Recomiendo altamente 10/10
+                        </p>
+                    </div>
+                </details>
+            </div>
+            <div class="caja_comentario">
+                <h1>Comentarios</h1>
+                <div class="comntarios_usu">
+                    <div class="usuario">
+                        <h2>Alexandra P.</h2>
+                        <h3>25 diciembre 2022</h3>
+                    </div>
+                    <div class="usu_comentario">
+                        <p>
+                            Vestido Perfecto que se adapta perfectamente a tus curvas. ¡He prestado este vestido a
+                            varios amigos y a todos les encanta! Gran material y perfecto para múltiples ocasiones.
+                            Recomiendo altamente 10/10
+                        </p>
+                    </div>
+
+                </div>
+                <div class="comntarios_usu">
+                    <div class="usuario">
+                        <h2>Alexandra P.</h2>
+                        <h3>25 diciembre 2022</h3>
+                    </div>
+                    <div class="usu_comentario">
+                        <p>
+                            Vestido Perfecto que se adapta perfectamente a tus curvas. ¡He prestado este vestido a
+                            varios amigos y a todos les encanta! Gran material y perfecto para múltiples ocasiones.
+                            Recomiendo altamente 10/10
+                        </p>
+                    </div>
+
+                </div>
+                <div class="comntarios_usu">
+                    <div class="usuario">
+                        <h2>Alexandra P.</h2>
+                        <h3>25 diciembre 2022</h3>
+                    </div>
+                    <div class="usu_comentario">
+                        <p>
+                            Vestido Perfecto que se adapta perfectamente a tus curvas. ¡He prestado este vestido a
+                            varios amigos y a todos les encanta! Gran material y perfecto para múltiples ocasiones.
+                            Recomiendo altamente 10/10
+                        </p>
+                    </div>
+
+                </div>
+                <button>Cargar mas Comentarios</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="politica">
+            <h1>Politicas de la Tienda</h1>
+            <br>
+            <article>
+                <ul>
+                    <li>Términos y condiciones</li>
+                    <li>Horario de Atención</li>
+                    <li>Libro de Reclamos</li>
+                    <li>Políticas de entrega , garantía y devolución</li>
+                </ul>
+            </article>
+            <br>
+        </div>
+        <div class="tienda">
+            <h1>Información de la Tienda</h1>
+            <br>
+            <article>
+                <ul>
+                    <li>Tienda Elimar</li>
+                    <li>Llámanos ahora al: 951 545 421</li>
+                    <li>Email: elimar@gmail.com</li>
+                </ul>
+            </article>
+            <br>
+        </div>
+        <div class="redes">
+            <h1>Redes Sociales</h1>
+            <br>
+            <article>
+                <ul>
+                    <li><img src="img/fooder/facebook.png" alt="facebook" class="redes_sociales"> Facebook</li>
+                    <li><img src="img/fooder/instagram.png" alt="instagram" class="redes_sociales">Instagram</li>
+                    <li><img src="img/fooder/twitter.png" alt="twitter" class="redes_sociales">Twiter</li>
+                    <li><img src="img/fooder/whatsapp.png" alt="whatsapp" class="redes_sociales">Whatsapp</li>
+                </ul>
+            </article>
+            <br>
+        </div>
+        <div class="copyright">
+            <p class="copyroght">
+                © ELIMAR - Todos los Derechos Reservados 2019
+            </p>
+        </div>
+    </footer>
+    <script src="js/descripcion_prenda/model.js"></script>
+    <script src="js/ropa.js"></script>
+</body>
+
+</html>

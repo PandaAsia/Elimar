@@ -1,0 +1,121 @@
+@import "../fuentes.css";
+
+body{
+    font-family: roboto_light;
+}
+.Login{
+    padding: 22px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.registrate{
+    padding: 22px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div .titulo{
+    font-size: 25px;
+    text-align: center;
+    color: #707070;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+div label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.formulario_usuario input{
+   width: 100%;
+   border: none;
+   background-color: #F5F5F5;
+   margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+div button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+ }
+
+ div button:hover{
+    background-color: #C4C4C4;
+ }
+
+ .Login a{
+     text-decoration: none;
+     font-size: 20px;
+     width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: red;
+ }
+ .Login a:hover{
+   color: black;
+}
+
+ @media screen and (min-width: 720px) {
+     .conenedor_login{
+         display: flex;
+         flex-direction: row-reverse;
+     }
+     .Login{
+         flex-grow: 1;
+         margin-top: 100px;
+         margin-bottom: 100px;
+         padding-top: 20px;
+         padding-bottom: 20px;
+     }
+     .registrate{
+         flex-grow: 2;
+         padding-left: 40px;
+         padding-right: 40px;
+         padding-top: 35px;
+         padding-bottom: 5px;
+         margin-top: 40px;
+         margin-bottom: 40px;         
+     }
+
+     div label{
+        font-size: 15px;
+    }
+    
+     main{
+         padding-left: 70px;
+         padding-right: 70px;
+     }
+     /* div h1{
+        font-size: 20px;
+    } */
+
+    .Login a{
+        font-size: 15px;
+       text-align: center;
+       margin-bottom: 10px;
+       margin-top: 10px;
+       color: red;
+    }
+ }

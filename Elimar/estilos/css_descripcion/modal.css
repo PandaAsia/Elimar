@@ -1,0 +1,93 @@
+@import "../fuentes.css";
+.modal_option{
+    display: none;
+    position: fixed;
+    padding-top: 250px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px;
+    width: 80%; 
+}
+.close{
+    color: #aaaaaa;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto_light;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  right: 0;
+}
+
+.modal_btn1{
+    font-size: 20px;
+    font-family: roboto_light;
+    color: red;
+    margin-bottom: 35px;
+}
+
+.modal_btn2{
+    font-size: 20px;
+    font-family: roboto_light;
+    color: #D8E615;
+}
+
+.close:hover, .close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal h2{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: roboto_light;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.boton_compra{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.boton_compra a{
+    text-decoration: none;
+}
+
+.button_o{
+    background-color: #D8E615;
+    font-size: 20px;
+    font-family: roboto_light;
+    border: none;
+    width: 100%;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.modal a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 720px) {
+    .modal{
+        text-align: center;
+    }
+    .modal{
+        width: 50%; 
+    }
+    
+}

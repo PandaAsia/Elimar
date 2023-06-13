@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/navbar.css">
+
+    <link rel="stylesheet" href="estilos/comentario_prenda/perfil_usuario.css">
+    <link rel="stylesheet" href="estilos/comentario_prenda/estado_pedido.css">
+    <link rel="stylesheet" href="estilos/comentario_prenda/modal_estado.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor_navbar">
+            <div class="contenedor_animada">
+                <ul>
+                    <li>
+                        <h1 class="h1">US$3 </h1> DESCUENTO DE SU PRIMERA ORDEN
+                    </li>
+                    <li>
+                        <h1 class="h1">US$3 </h1> DESCUENTA DE ROPA DE VERANO
+                    </li>
+                </ul>
+            </div>
+            <a href="index.html" class="navbar_logo">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <input type="checkbox" id="menu_navbar">
+            <label for="menu_navbar">
+                <img src="img/menu.png" alt="menu">
+            </label>
+            <nav class="menu_nav">
+                <ul class="menu_principal">
+                    <li class="menu_lista">
+                        <div class="container_1">
+                            <form action="" autocomplete="on">
+                                <input id="search" name="search" type="text" placeholder="Buscar..." class="search">
+                                <input type="submit" id="search_submit" value="Buscar">
+                            </form>
+                        </div>
+                    </li>
+                    <li class="menu_lista">
+                        <a href="galleria.html">Prendas <img src="img/arrow.png" alt="arrow"></a>
+                    </li>
+                    <li class="menu_lista sub_cuenta">
+                        <a href="#" class="cuenta">Cuenta <span class="fas fa-sort-down"></span></a>
+                        <ul class="sub_menu">
+                            <li class="menu_lista">
+                                <a href="login.html">Iniciar Sesion <img src="img/arrow.png" alt="arrow"></a>
+                            </li>
+                            <li class="menu_lista">
+                                <a href="galleria.html">Compras <img src="img/arrow.png" alt="arrow"></a>
+                            </li>
+                            <li class="menu_lista">
+                                <a href="estado_pedido.html">Reseñas <img src="img/arrow.png" alt="arrow"></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu_lista_2">
+                        <a href="shopping_card.html">Carrito de Compra <img src="img/arrow.png" alt="arrow"></a>
+                    </li>
+                    <li class="menu_lista_3">
+                        <a href="shopping_card.html"><span class="fas fa-shopping-cart"></span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="usuario_resena">
+                <div class="perfil_usuario">
+                    <h1>Perfil de usuario</h1>
+                    <div>
+                        <h2>Usuario:</h2>
+                        <h3>Cristian albares</h3>
+                    </div>
+                    <div>
+                        <h2>Correo:</h2>
+                        <h3>Cristian@gmail.com</h3>
+                    </div>
+                    <div class="contenedor_bton">
+                        <div>
+                            <a href="#">Comprar</a>
+                        </div>
+                        <div>
+                            <a href="#">Reseña</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor_estados">
+                    <div class="caja_estado">
+                        <div class="caja_info">
+                            <h1>Estado</h1>
+                            <h2>Entregado</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Fecha de Compra</h1>
+                            <h2>10/25/25</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Fecha de Entrega</h1>
+                            <h2>10/25/26</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Costo Envio</h1>
+                            <h2>S/.0.00</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Formato de Pago</h1>
+                            <h2>Transferencia</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Pago Total</h1>
+                            <h2>S/.599.99</h2>
+                        </div>
+                        <a href="#">Ver Detalles</a>
+                    </div>
+                    <div class="caja_estado">
+                        <div class="caja_info">
+                            <h1>Estado</h1>
+                            <h2>Entregado</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Fecha de Compra</h1>
+                            <h2>10/25/25</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Fecha de Entrega</h1>
+                            <h2>10/25/26</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Costo Envio</h1>
+                            <h2>S/.0.00</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Formato de Pago</h1>
+                            <h2>Transferencia</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Pago Total</h1>
+                            <h2>S/.599.99</h2>
+                        </div>
+                        <a href="#">Ver Detalles</a>
+                    </div>
+                    <div class="caja_estado">
+                        <div class="caja_info">
+                            <h1>Estado</h1>
+                            <h2>Entregado</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Fecha de Compra</h1>
+                            <h2>10/25/25</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Fecha de Entrega</h1>
+                            <h2>10/25/26</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Costo Envio</h1>
+                            <h2>S/.0.00</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Formato de Pago</h1>
+                            <h2>Transferencia</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Pago Total</h1>
+                            <h2>S/.599.99</h2>
+                        </div>
+                        <a href="#">Ver Detalles</a>
+                    </div>
+                    <div class="caja_estado">
+                        <div class="caja_info">
+                            <h1>Estado</h1>
+                            <h2>Entregado</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Fecha de Compra</h1>
+                            <h2>10/25/25</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Fecha de Entrega</h1>
+                            <h2>10/25/26</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Costo Envio</h1>
+                            <h2>S/.0.00</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Formato de Pago</h1>
+                            <h2>Transferencia</h2>
+                        </div>
+                        <div class="caja_info">
+                            <h1>Pago Total</h1>
+                            <h2>S/.599.99</h2>
+                        </div>
+                        <a href="#" id="open_modal_compra">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="modal_compra" id="view_modal_compra">
+                <div class="contenedor_galleria">
+                        <a href="#" class="close">X</a>
+                        <div class="contenedor_ropa">
+                            <div class="caja_ropa">
+                                <img src="img/Ropa/691043_899A08_portrait_HD_1.jpg" alt="">
+                            </div>
+                            <div class="caja_text">
+                                <div class="texto_informacion">
+                                    <div class="texto_info">
+                                        <h3>Diseño</h3>
+                                        <p>Sybilla</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h3>Color</h3>
+                                        <p>Plomo</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h3>Talla</h3>
+                                        <p>xl</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h3>Precio</h3>
+                                        <p>S./599.99</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h3>cantidad</h3>
+                                        <p>25</p>
+                                    </div>
+                                    <div class="texto_info">
+                                        <h3>Total</h3>
+                                        <p>S./599.99</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="comentario_resana">
+                                <h2>
+                                        Reseña y/o Comentario
+                                    </h2>
+                                    <form action="">
+                                        <textarea name="comentario" id="textarea"></textarea>
+                                        <button>Agregar</button>
+                                    </form>
+                        </div>
+                    </div>
+        </section>
+    </main>
+    <footer>
+        <div class="politica">
+            <h1>Politicas de la Tienda</h1>
+            <br>
+            <article>
+                <ul>
+                    <li>Términos y condiciones</li>
+                    <li>Horario de Atención</li>
+                    <li>Libro de Reclamos</li>
+                    <li>Políticas de entrega , garantía y devolución</li>
+                </ul>
+            </article>
+            <br>
+        </div>
+        <div class="tienda">
+            <h1>Información de la Tienda</h1>
+            <br>
+            <article>
+                <ul>
+                    <li>Tienda Elimar</li>
+                    <li>Llámanos ahora al: 951 545 421</li>
+                    <li>Email: elimar@gmail.com</li>
+                </ul>
+            </article>
+            <br>
+        </div>
+        <div class="redes">
+            <h1>Redes Sociales</h1>
+            <br>
+            <article>
+                <ul>
+                    <li><img src="img/fooder/facebook.png" alt="facebook" class="redes_sociales"> Facebook</li>
+                    <li><img src="img/fooder/instagram.png" alt="instagram" class="redes_sociales">Instagram</li>
+                    <li><img src="img/fooder/twitter.png" alt="twitter" class="redes_sociales">Twiter</li>
+                    <li><img src="img/fooder/whatsapp.png" alt="whatsapp" class="redes_sociales">Whatsapp</li>
+                </ul>
+            </article>
+            <br>
+        </div>
+        <div class="copyright">
+            <p class="copyroght">
+                © ELIMAR - Todos los Derechos Reservados 2019
+            </p>
+        </div>
+    </footer>
+    <script src="js/estado/model.js"></script>
+</body>
+
+</html>
